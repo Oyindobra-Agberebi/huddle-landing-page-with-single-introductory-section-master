@@ -109,11 +109,29 @@ button:hover {
     border: solid 1px var(--softMagenta);
 }
 
-@media only screen and (min-width: 800px) {
+footer {
+    text-align: center;
+    margin: 1em 0;
+    color: black;
+}
+
+footer a {
+    color: grey;
+    text-decoration: none;
+}
+
+
+footer a:hover {
+    font-weight: bold;
+    color: var(--violetColor);
+}
+
+@media only screen and (min-width: 834px) {
     main {
         width: 100%;
         height: 100vh;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
@@ -161,5 +179,9 @@ button:hover {
     .footer {
         margin: 0 0 1em;
         justify-content: flex-end;
+    }
+
+    footer {
+        margin: 0;
     }
 }

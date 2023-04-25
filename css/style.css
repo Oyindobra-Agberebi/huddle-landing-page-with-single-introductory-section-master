@@ -62,7 +62,7 @@ article {
     display: flex;
     flex-direction: column;
     gap: 1em;
-    padding: 0 4em;
+    padding: 0 1em;
 }
 
 p {
